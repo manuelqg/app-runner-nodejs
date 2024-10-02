@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello App Runner');
+  res.send('Hello App Runner. Managed Container Service');
 });
 
 app.listen(8080, () => {
